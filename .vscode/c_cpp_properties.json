@@ -2,16 +2,12 @@
     "configurations": [
         {
             "name": "Win32",
-            "includePath": [
-                "${workspaceFolder}/**"
-            ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ],
+            "includePath": ["C:\\MinGW\\include"],
+            "defines": ["_DEBUG", "UNICODE", "_UNICODE"],
             "compilerPath": "C:\\MinGW\\bin\\gcc.exe",
-            "intelliSenseMode": "windows-msvc-x64"
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
         }
     ],
     "version": 4
